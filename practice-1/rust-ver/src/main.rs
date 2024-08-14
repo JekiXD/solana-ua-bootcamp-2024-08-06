@@ -1,6 +1,5 @@
 use std::env;
 
-use serde_json::Value;
 use solana_client::rpc_client::RpcClient;
 use solana_sdk::{commitment_config::CommitmentConfig, native_token::LAMPORTS_PER_SOL, signature::Keypair, signer::{SeedDerivable, Signer}};
 use dotenv::dotenv;
